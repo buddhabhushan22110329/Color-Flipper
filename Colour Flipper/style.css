@@ -1,0 +1,108 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+body{
+    background-color: blue;
+}
+*/
+
+nav{
+    background-color: white;
+    height: 1.5cm;
+    /* box-shadow: inset; */
+    color: black;
+}
+
+.top{
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 0.3cm;
+}
+
+.top h4{
+    margin-right: 15em;
+    font-weight: bolder;
+}
+
+.top ul{
+    display: flex;
+    margin-left: 15em;
+    margin-right: 7em;
+}
+
+.top ul li{
+    padding-right: 1em;
+    list-style: none;
+    color: black;
+    
+}
+
+.main{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.bcolour{
+    background-color: black;
+    color: white;
+    height: 2.7cm;
+    width: 10cm;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+#codeID{
+    padding-top: 7px;
+    font-size: x-large;
+    /* text-align: center; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+}
+
+.bcolour h2{
+    padding-top: 4%;
+    /* justify-content: center; */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clrBtn{
+    margin-top: 1cm;
+    /* background-color: black; */
+    /* height: 1cm;
+    width: 3cm; */
+    text-align: center;
+
+}
+
+.clrBtn button{
+    margin-top: 5%;
+    height: 1cm;
+    width: 3cm;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+}
+
+#btnID{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
